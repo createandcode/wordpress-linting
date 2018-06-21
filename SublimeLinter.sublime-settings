@@ -80,15 +80,15 @@
         "phpcs": {
             "@disable": false,
             "args": [],
-            "executable": "/Users/colmtroy/pear/bin/phpcs",
+            "executable": "~/pear/bin/phpcs",
             "excludes": [],
             "standard": "WordPress"
         },
         "stylelint": {
-            "env": {"PATH":"/Users/colmtroy/.nvm/versions/node/v7.6.0/bin/"}
+            "env": {"PATH":"~/.nvm/versions/node/v7.6.0/bin/"}
         },
         "eslint": {
-          "env": {"PATH":"/Users/colmtroy/.nvm/versions/node/v7.6.0/bin/"}
+          "env": {"PATH":"~/.nvm/versions/node/v7.6.0/bin/"}
         }
     },
 
@@ -101,7 +101,7 @@
     // Provide extra paths to be searched when locating system executables.
     "paths": {
         "linux": [],
-        "osx": ["/Users/colmtroy/.nvm/versions/node/v7.6.0/bin/"],
+        "osx": ["~/.nvm/versions/node/v7.6.0/bin/"],
         "windows": []
     },
 
