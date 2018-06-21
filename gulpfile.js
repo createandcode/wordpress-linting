@@ -7,7 +7,6 @@ gulp.task( 'fix-css', function fixCssTask() {
 
 	var paths = [
 		'assets/css/**/*.css',
-		'style_prelinting.css',
 		'style.css'
 	];
 
