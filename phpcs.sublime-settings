@@ -50,7 +50,6 @@
     // add_regsions
     "phpcs_icon_scope_color": "comment",
 
-
     // PHP_CodeSniffer settings
 
     // Do you want to run the phpcs checker?
@@ -61,7 +60,7 @@
 
     // It seems python/sublime cannot always find the phpcs application
     // If empty, then use PATH version of phpcs, else use the set value
-    "phpcs_executable_path": "/Users/colmtroy/pear/bin/phpcs",
+    "phpcs_executable_path": "/path/to/pear/bin/phpcs",
 
     // Additional arguments you can specify into the application
     //
@@ -75,28 +74,7 @@
         "-n": ""
     },
 
-
-
-    // PHP-CS-Fixer settings
-
-    // Fix the issues on save
-    "php_cs_fixer_on_save": false,
-
-    // Show the quick panel
-    "php_cs_fixer_show_quick_panel": true,
-
-    // Path to where you have the php-cs-fixer installed
-    "php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
-
-    // Additional arguments you can specify into the application
-    "php_cs_fixer_additional_args": {
-
-    },
-
-
-
     // phpcbf settings
-
     // Fix the issues on save
     "phpcbf_on_save": true,
 
@@ -114,73 +92,5 @@
     // }
     "phpcbf_additional_args": {
         "--standard": "WordPress",
-        //"--no-patch": "",
-        //"--no-patch": "",
-        //"-n": ""
     },
-
-
-
-    // PHP Linter settings
-
-    // Are we going to run php -l over the file?
-    "phpcs_linter_run": true,
-
-    // Execute the linter on file save
-    "phpcs_linter_command_on_save": true,
-
-    // It seems python/sublime cannot always find the php application
-    // If empty, then use PATH version of php, else use the set value
-    "phpcs_php_path": "",
-
-    // What is the regex for the linter? Has to provide a named match for 'message' and 'line'
-    "phpcs_linter_regex": "(?P<message>.*) on line (?P<line>\\d+)",
-
-
-
-    // PHP Mess Detector settings
-
-    // Execute phpmd
-    "phpmd_run": false,
-
-    // Execute the phpmd on file save
-    "phpmd_command_on_save": true,
-
-    // It seems python/sublime cannot always find the phpmd application
-    // If empty, then use PATH version of phpmd, else use the set value
-    "phpmd_executable_path": "",
-
-    // Additional arguments you can specify into the application
-    //
-    // Example:
-    // {
-    //     "codesize,unusedcode"
-    // }
-    "phpmd_additional_args": {
-        "codesize,unusedcode,naming": ""
-    },
-
-
-    // PHP Scheck settings
-
-    // Execute scheck
-    "scheck_run": false,
-
-    // Execute the scheck on file save
-    "scheck_command_on_save": false,
-
-    // It seems python/sublime cannot always find the scheck application
-    // If empty, then use PATH version of scheck, else use the set value
-    "scheck_executable_path": "",
-
-    // Additional arguments you can specify into the application
-    //
-    //Example:
-    //{
-    //  "-php_stdlib" : "/path/to/pfff",
-    //  "-strict" : ""
-    //}
-    "scheck_additional_args": {
-        "-strict" : ""
-    }
 }
